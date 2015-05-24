@@ -4,6 +4,7 @@ class PagesController < ApplicationController
 
 	def about
 		@number = (1..46).to_a.sample(6)
-		params[:name]
+		@name = "#{params[:name]} #{params[:name2]}"
+		# render layout: 'admin'
 	end
 end
