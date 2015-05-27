@@ -2,8 +2,9 @@
 	<!-- <li><a href="<%= root_path %>">homepage</a></li>
 	<li><a href="<%= about_path %>">about</a></li>
 	<li><a href="<%#= math_path %>">math</a></li> -->
-	<li><%= nav_li 'homepage', root_path %></li>
-	<li><%= nav_li 'about', about_path %></li>
+	<%= nav_li 'homepage', root_path %>
+	<%= nav_li 'about', about_path %>
+	<%= nav_li 'form', form_path %>
 </ul>
 <% line_number.times do  %>
 <hr>
