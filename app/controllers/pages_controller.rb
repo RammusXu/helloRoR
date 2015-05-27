@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-	layout 'admin'
+	# layout 'admin'
 	def home
 	end
 
